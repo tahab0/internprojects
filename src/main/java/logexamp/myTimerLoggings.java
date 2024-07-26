@@ -24,8 +24,8 @@ public class myTimerLoggings {
         debugTimer.scheduleAtFixedRate(new TimerTask() {
             @Override
             public void run() {
-                String currentTime = LocalDateTime.now().format(timeFormatter);
-                debugLogger.debug(currentTime);
+                String currenTime = LocalDateTime.now().format(timeFormatter);
+                debugLogger.debug(currenTime);
             }
         }, 0, 1000);
 
