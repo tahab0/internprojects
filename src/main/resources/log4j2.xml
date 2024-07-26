@@ -13,7 +13,7 @@
             <DefaultRolloverStrategy max="5" fileIndex="min">
                 <Delete basePath="logs">
                     <IfFileName glob="Timer-*.log"/>
-                    <IfLastModified age="1d"/>
+                    <IfLastModified age="1h"/>
                 </Delete>
             </DefaultRolloverStrategy>
         </RollingFile>
